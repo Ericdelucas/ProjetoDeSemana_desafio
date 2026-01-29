@@ -1,0 +1,80 @@
+.wrap {
+  display: grid;
+  place-items: center;
+  padding: 10px 0 40px;
+}
+
+.panel {
+  width: min(900px, 100%);
+  border-radius: 22px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(10, 18, 34, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.hero {
+  padding: 26px 22px;
+  background: linear-gradient(90deg, rgba(11, 43, 110, 0.75), rgba(27, 91, 214, 0.55), rgba(121, 201, 255, 0.3));
+}
+
+.title {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.sub {
+  margin: 8px 0 0;
+  opacity: 0.85;
+}
+
+.search_area {
+  padding: 22px;
+  display: grid;
+  gap: 12px;
+}
+
+.label {
+  font-size: 12px;
+  opacity: 0.85;
+}
+
+.input {
+  height: 44px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.06);
+  color: #eaf2ff;
+  padding: 0 12px;
+  outline: none;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.btn,
+.btn_secondary {
+  height: 44px;
+  border-radius: 14px;
+  border: 0;
+  cursor: pointer;
+  padding: 0 16px;
+  font-weight: 800;
+}
+
+.btn {
+  background: rgba(255, 255, 255, 0.16);
+  color: #eaf2ff;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.btn_secondary {
+  background: rgba(121, 201, 255, 0.2);
+  color: #eaf2ff;
+  border: 1px solid rgba(121, 201, 255, 0.35);
+}

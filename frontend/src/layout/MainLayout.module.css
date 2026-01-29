@@ -1,0 +1,23 @@
+.shell {
+  min-height: 100vh;
+  background: radial-gradient(1200px 600px at 20% 10%, rgba(46, 131, 255, 0.35), transparent 60%),
+    radial-gradient(900px 500px at 90% 40%, rgba(117, 225, 255, 0.22), transparent 55%),
+    #0b1220;
+  color: #eaf2ff;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  min-height: calc(100vh - 64px);
+}
+
+.content {
+  padding: 28px 22px;
+}
+
+@media (max-width: 920px) {
+  .body {
+    grid-template-columns: 1fr;
+  }
+}

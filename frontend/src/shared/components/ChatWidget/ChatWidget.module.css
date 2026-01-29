@@ -1,0 +1,135 @@
+.fab {
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  width: 58px;
+  height: 58px;
+  border-radius: 999px;
+  border: 0;
+  cursor: pointer;
+  font-size: 22px;
+  background: linear-gradient(180deg, #0b2b6e, #1b5bd6);
+  color: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  z-index: 50;
+}
+
+.panel {
+  position: fixed;
+  right: 18px;
+  bottom: 92px;
+  width: 330px;
+  height: 430px;
+  border-radius: 18px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.92);
+  color: #0b1220;
+  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  z-index: 60;
+}
+
+.header {
+  height: 58px;
+  padding: 10px 12px;
+  background: linear-gradient(90deg, #0b2b6e, #1b5bd6, #79c9ff);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.plus {
+  width: 34px;
+  height: 34px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  background: rgba(0, 0, 0, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  font-weight: 900;
+}
+
+.title {
+  font-weight: 800;
+}
+
+.close {
+  width: 34px;
+  height: 34px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(0, 0, 0, 0.18);
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.body {
+  height: calc(430px - 58px - 58px);
+  padding: 12px;
+  overflow: auto;
+  background: rgba(235, 242, 255, 0.75);
+}
+
+.bot_row,
+.user_row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.bot_row {
+  justify-content: flex-start;
+}
+
+.user_row {
+  justify-content: flex-end;
+}
+
+.bubble_bot {
+  max-width: 78%;
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.bubble_user {
+  max-width: 78%;
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: #0b2b6e;
+  color: white;
+}
+
+.footer {
+  height: 58px;
+  display: grid;
+  grid-template-columns: 1fr 88px;
+  gap: 10px;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.9);
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.input {
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  padding: 10px 12px;
+  outline: none;
+}
+
+.send {
+  border-radius: 12px;
+  border: 0;
+  cursor: pointer;
+  background: #1b5bd6;
+  color: white;
+  font-weight: 700;
+}

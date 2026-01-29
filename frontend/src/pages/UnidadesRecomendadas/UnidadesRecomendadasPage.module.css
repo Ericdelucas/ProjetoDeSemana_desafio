@@ -1,0 +1,76 @@
+.wrap {
+  display: grid;
+  place-items: center;
+}
+
+.list {
+  width: min(900px, 100%);
+  display: grid;
+  gap: 14px;
+}
+
+.card {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.92);
+  color: #0b1220;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.ribbon {
+  height: 34px;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  font-weight: 900;
+}
+
+.melhor {
+  background: #7dff7a;
+}
+
+.moderado {
+  background: #ffe65b;
+}
+
+.lotado {
+  background: #ff4a4a;
+  color: white;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px 16px 18px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 900;
+  color: #0b2b6e;
+}
+
+.meta {
+  margin-top: 10px;
+  display: grid;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.status {
+  color: rgba(11, 43, 110, 0.9);
+  font-weight: 700;
+}
+
+.icon {
+  width: 86px;
+  height: 86px;
+  border-radius: 18px;
+  display: grid;
+  place-items: center;
+  font-size: 34px;
+  background: rgba(11, 43, 110, 0.08);
+  border: 1px solid rgba(11, 43, 110, 0.12);
+}
